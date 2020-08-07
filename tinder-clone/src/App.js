@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import _TinderCards from './TinderCards'
 import TinderCards from 'react-tinder-card'
 import SwipeButtons from './SwipeButtons'
+import Chats from './Chats'
+import ChatScreen from './ChatScreen'
 
 
 import './App.css';
@@ -11,13 +13,19 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Header />
       <Router>
         <Switch>
-        <Route path="/chat">
-            <p>Chat</p>
+        <Route path="/chats/:person">
+        <Header backButton="/chats" />
+            <ChatScreen />
+          </Route>
+
+        <Route path="/chats">
+        <Header backButton="/" />
+            <Chats />
           </Route>
           <Route path="/">
+          <Header />
             <_TinderCards />
             <SwipeButtons />
           </Route>
