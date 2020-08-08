@@ -2,11 +2,10 @@ import React from 'react'
 import Header from './header'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import _TinderCards from './TinderCards'
-import TinderCards from 'react-tinder-card'
 import SwipeButtons from './SwipeButtons'
 import Chats from './Chats'
 import ChatScreen from './ChatScreen'
-
+import Profile from './profile'
 
 import './App.css';
 
@@ -19,10 +18,13 @@ function App() {
         <Header backButton="/chats" />
             <ChatScreen />
           </Route>
-
         <Route path="/chats">
         <Header backButton="/" />
             <Chats />
+          </Route>
+          <Route path="/profile">
+          <Header backButton="/"/>
+           <Profile /> 
           </Route>
           <Route path="/">
           <Header />
