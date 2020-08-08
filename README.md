@@ -14,6 +14,6 @@ This project is deplopyed and be viewed at => https://tinder-clone-project.web.a
 ```
 - $ git clone https://github.com/SHANIMCD/Tinder-Clone-ui-project.git
 - $ cd tinder-clone/
-- $ npm start
 - $ npm install
+- $ npm start
 ```
