@@ -9,6 +9,7 @@ I used:
 
 
 This project is deplopyed and be viewed at => https://tinder-clone-project.web.app
+Advisory: Best viewed via a mobile device.
 
 to run locally, run the following commands: 
 ```
