@@ -35,3 +35,15 @@
   padding: 3vw !important;
   color: #7729b6 !important;
 }
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) {
+ 
+  .swipeButtons {
+    position: fixed;
+    display: flex;
+    bottom: 5vh;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  
+}
