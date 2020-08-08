@@ -1,9 +1,9 @@
 .card {
   position: relative;
   padding: 20px;
-  width: 600px;
+  width: 450px;
   max-width: 85vw;
-  height: 50vh;
+  height: 45vh;
   border-radius: 20px;
   background-size: cover;
   background-position: center;
@@ -13,7 +13,7 @@
 .tinder_card_container {
   display: flex;
   justify-content: center;
-  margin-top: 5vh;
+  margin-top: 8vh;
 }
 
 .card > h3 {
