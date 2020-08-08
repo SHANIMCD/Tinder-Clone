@@ -1,5 +1,4 @@
 # Tinder-Clone
-## Web app UI task
 ### A hobby task to replicate Tinder's UI
 
 
@@ -11,7 +10,7 @@ I used:
 
 This project is deplopyed and be viewed at => https://tinder-clone-project.web.app (Best viewed on a mobile device)
 
-to run locally, run the following commands: 
+## To run locally, run the following commands: 
 ```
 - $ git clone https://github.com/SHANIMCD/Tinder-Clone-ui-project.git
 - $ cd tinder-clone/
